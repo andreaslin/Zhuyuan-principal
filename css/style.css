@@ -73,7 +73,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #00F;
+	color: #0000FF;
 	font-size: 20px;
 	line-height: 40px;
 }
@@ -263,12 +263,13 @@ hr {
 	display:block;
     position:relative;
     z-index:120;
+	/*background: url(../img/bg-1000.jpg) no-repeat top center;*/
 	background: #D1F0FA
 }
 
 
 .section-heading h2 {
-	font-size: 40px;
+	font-size: 60px;
 }
 .section-heading i {
 	margin-bottom: 20px;
@@ -282,7 +283,7 @@ hr {
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #F2F2F2;
 }
 
 
@@ -306,7 +307,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg-1000.jpg) no-repeat top center;
+	background: #D1F0FA url(../img/bg-1000.jpg) no-repeat top center;
 }
 
 #intro.intro {
@@ -314,7 +315,10 @@ hr {
 }
 
 .intro .slogan {
-	text-align: center;
+	text-align: justify;
+	color: #F0F;
+	font-weight: bold;
+	font-size: 80px;
 
 }
 
@@ -331,9 +335,9 @@ hr {
 }
 
 .intro .slogan h2 {
-	color: #00F;
+	color: #FF00FF;
 	text-shadow: none;
-	font-size: 60px;
+	font-size: 80px;
 	line-height: 60px;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
@@ -344,6 +348,7 @@ hr {
 	border-color: #000;
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
+	text-align: center;
 }
 
 .intro .slogan h4 {
@@ -363,10 +368,12 @@ hr {
 
 .team h5 {
 	margin-bottom: 10px;
+	font-size: 24px;
 }
 
 .team p.subtitle {
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 
 .avatar {
@@ -426,9 +433,25 @@ hr {
 --- Description Box
 ============================ */
 
+.service-box {
+	margin: 10px;
+}
+
+.service-icon {
+	margin-bottom: 10px
+}
+
 .service-desc {
 	text-align: center;
 }	
+
+.service-desc h5 {
+	font-size: 40px
+}
+
+.service=-desc p {
+	font-size: 32px	
+}
 
 
 
