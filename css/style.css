@@ -8,7 +8,7 @@ body {
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #fff;
+    background-color: #D1F0FA;;
 }
 
 html {
@@ -264,7 +264,8 @@ hr {
     position:relative;
     z-index:120;
 	/*background: url(../img/bg-1000.jpg) no-repeat top center;*/
-	background: #D1F0FA
+	background: #D1F0FA url(../img/bg-light1.jpg) no-repeat center;	
+	background-size: contain;
 }
 
 
@@ -289,6 +290,11 @@ hr {
 
 .bg-dark {
 	background: #575757;
+}
+
+.bg-pic2 {
+	background: #D1F0FA url(../img/bg-light2.jpg) no-repeat center;	
+	background-size: contain;
 }
 
 /* --- section color var --- */
@@ -415,6 +421,11 @@ hr {
 	margin:0;
 	padding:0;
 }
+
+.team row {
+	margin-top: 15px;	
+}
+
 .team-social .social-facebook a{background: #3873ae;}
 .team-social .social-twitter a{background: #62c6f8;}
 .team-social .social-dribble a{background: #d74980;}
@@ -435,6 +446,8 @@ hr {
 
 .service-box {
 	margin: 10px;
+	/*background: url(../img/box-bg-light.jpg) no-repeat center;
+	background-size: contain;*/
 }
 
 .service-icon {
@@ -550,6 +563,17 @@ footer {
 
 footer p {
 	color: #f8f8f8;
+}
+
+footer table {
+	font-size: 20px;	
+}
+
+footer td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /* ==========================

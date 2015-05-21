@@ -4,10 +4,18 @@
 	Featuring the Silk Icon Set from famfamfam (http://www.famfamfam.com/lab/icons/silk/)
 
 */
+body {
+ 	margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+	background: #D1F0FA;
+}
+
 
 .php-file-tree {
-	font-family: Georgia;
-	font-size: 12px;
+	font-family: 'Lato',sans-serif;
+	font-size: 40px;
 	letter-spacing: 1px;	line-height: 1.5;
 }
 
@@ -21,7 +29,7 @@
 	}
 
 	.php-file-tree .open {
-		font-style: italic;
+		font-style: normal;
 	}
 	
 	.php-file-tree .closed {
