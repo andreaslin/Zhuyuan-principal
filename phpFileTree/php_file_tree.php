@@ -18,12 +18,20 @@
 
 
 function php_file_tree($directory, $return_link, $extensions = array()) {
+	// Add a title to the list
+	$pos=strrpos($directory, "\\");
+	$title=substr($directory, $pos+1);
+	$title=iconv("big5", "utf-8", $title);
+	$code="<h1>" . $title . "</h1>";
+	
 	// Generates a valid XHTML list of all directories, sub-directories, and files in $directory
 	// Remove trailing slash
 	if( substr($directory, -1) == "/" ) $directory = substr($directory, 0, strlen($directory) - 1);
-	$code="";
+	// Restricted file type to be displayed (Customized for the Zhuyuan website only)
+	$extension=array("jpg", "doc", "docx", "xls", "xlsx", "ppt", "pptx", "pdf");
 	$code .= php_file_tree_dir($directory, $return_link, $extensions);
 	//$code=iconv("big5", "utf-8", $code);
+		
 	return $code;
 }
 

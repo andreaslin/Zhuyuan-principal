@@ -12,10 +12,14 @@ body {
 	background: #D1F0FA;
 }
 
+body h1 {
+	font-size: 40px;	
+}
+
 
 .php-file-tree {
 	font-family: 'Lato',sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	letter-spacing: 1px;	line-height: 1.5;
 }
 
