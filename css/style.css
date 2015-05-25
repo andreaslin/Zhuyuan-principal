@@ -313,7 +313,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: #D1F0FA url(../img/bg3.jpg) no-repeat top center;
+	background: #D1F0FA url(../img/bg3-light.jpg) no-repeat top center;
 	background-size: cover;
 }
 
@@ -580,6 +580,7 @@ footer p {
 
 footer table {
 	font-size: 20px;	
+	color: #FFF;
 }
 
 footer td {
