@@ -1,3 +1,5 @@
+<script src="../phpFileTree/php_file_tree.js" type="text/javascript"></script>
+
 <?php
 /*
 	

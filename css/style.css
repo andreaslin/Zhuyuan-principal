@@ -313,7 +313,8 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: #D1F0FA url(../img/bg-1000.jpg) no-repeat top center;
+	background: #D1F0FA url(../img/bg3.jpg) no-repeat top center;
+	background-size: cover;
 }
 
 #intro.intro {
@@ -322,10 +323,9 @@ hr {
 
 .intro .slogan {
 	text-align: justify;
-	color: #F0F;
+	color: #FF8F59;
 	font-weight: bold;
 	font-size: 80px;
-
 }
 
 .intro .page-scroll {
@@ -341,7 +341,7 @@ hr {
 }
 
 .intro .slogan h2 {
-	color: #FF00FF;
+	color: #FF0;
 	text-shadow: none;
 	font-size: 80px;
 	line-height: 60px;
@@ -355,6 +355,8 @@ hr {
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
 	text-align: center;
+	/*background: url("../img/bg-title.jpg") no-repeat bottom;
+	background-size: cover;	*/
 }
 
 .intro .slogan h4 {
@@ -466,6 +468,17 @@ hr {
 	font-size: 32px	
 }
 
+.font-style1 {
+	color: #00F;
+}
+
+.font-style2 {
+	color: #FF8B17;
+}
+
+.font-style3 {
+	color: #008080;
+}
 
 
 /* ===========================
